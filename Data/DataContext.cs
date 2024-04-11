@@ -7,7 +7,7 @@ namespace FIAP_MVC.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
-
         public DbSet<User> MVC_Users { get; set; }
+        public DbSet<Spell> MVC_Speels { get; set; }
     }
 }
